@@ -11,6 +11,6 @@ CMD - It is used to exceute a command in a running container. There can be only 
 
 command:
 
-docker build -t 2048-dkr 
+docker build -t 2048-dkr .
 docker images
 docker run -d -p 80:80 image-id
